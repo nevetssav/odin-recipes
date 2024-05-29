@@ -27,3 +27,55 @@
     width:100px;
     text-align:center;
 }
+
+.flex_container {
+    background-color:palegoldenrod;
+    border:5px solid white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:200px;
+}
+ul {
+    list-style-type: none;
+    margin:10px;
+    gap:100px;
+}
+.minor {
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:10px;
+    text-align: center;
+    align-self:center;
+}
+.left {
+    justify-content: flex-start;
+}
+.right {
+    justify-content: flex-end;
+}
+
+.logo {
+    padding:10px 30px;
+    font-weight:bolder;
+    color:tomato;
+}
+.berryhead {
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin:32px;
+}
+.berrycontainer {
+    display:flex;
+    align-content:space-between;
+    gap:52px;
+}
+.berryunit{ 
+    text-align:center;
+    justify-content:center;
+}
+.berry {
+    height:60px;
+    width:60px;
+}
