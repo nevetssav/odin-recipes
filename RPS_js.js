@@ -9,5 +9,5 @@ function getHumanChoice(){
     return(choice)
 }
 
-console.log(getComputerChoice)
-console.log(getHumanChoice)
+console.log(getComputerChoice())
+console.log(getHumanChoice())
